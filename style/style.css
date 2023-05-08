@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(41, 38, 38);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(26, 119, 211);
+    text-decoration: underline
+}
+
+#bvn{
+    padding-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#bar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    width: 98%;
+    height: 75px;
+    background-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: black;
+
+}
+#all_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+#logo1{
+    height: 50px;
+    width: 50px;
+}
+#logo2{
+    padding-right: 100px;
+    height: 50px;
+    width: 70px;
+}
+#logo3{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    margin-left: 93%;
+
+}
+
+.titre{
+    font-size: large;
+    font-weight: bold;
+    color: #000;
+    padding-right:25px;
+    user-select: none;
+
+}
+.titre:hover{
+    color: rgb(26, 119, 211);
+    text-decoration: underline;
+}
+
