@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <script src="../script/script.js"></script>
+    <title>Pfsense</title>
+</head>
+<body>
+    <div id="bar">
+        <div id="all_logo">
+            <a href="../index.html">
+                <img src="../style/img/logo_pfsense.png" alt="" id="logo1">
+                <img src="../style/img/virtual_box.png" alt="" id="logo2">
+            </a>
+            <a href="serverWeb.html">
+                <div class="titre">
+                    Server Web
+                </div>
+            </a>
+            <a href="backup.html">
+                <div class="titre">
+                    Server Backup
+                </div>
+            </a>
+            <a href="pfsense.html">
+                <div class="titre">
+                    Pfsense
+                </div>
+            </a>
+            <a href="ClientLinux.html">
+                <div class="titre">
+                    Client Linux
+                </div>
+            </a>
+            <a href="ClientWindows.html">
+                <div class="titre">
+                    Client Windows
+                </div>
+            </a>
+            <img src="../style/img/mylogo.png" alt="" id="logo3">
+            </div>
+        </div>
+    </div>
+    <h1 id="bvn">Pfsense</h1>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture1.PNG" alt="">
+            Tout d'abord il faut accepter la licence de pfsense.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture2.PNG" alt="">
+            Ensuite il faut choisir install pour installer pfsense.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture3.PNG" alt="">
+            Ensuite il faut choisir le clavier.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture4.PNG" alt="">
+            Puis faire "continue with..."
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture5.PNG" alt="">
+            Ensuite il faut choisir le disque dur, ici il sera en auto (2FS).
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture6.PNG" alt="">
+            Ensuite il faut choisir "install" pour installer pfsense.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture7.PNG" alt="">
+            Ensuite il faut choisir "OK" pour confirmer l'installation avec "stripe".
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture8.PNG" alt="">
+            Ensuite il faut choisir "Espace" pour choisir "da0" puis faire "OK" en appuyant sur entrer
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture9.PNG" alt="">
+            Ensuite il faut choisir "YES" pour "destroy".
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture10.PNG" alt="">
+            Ensuite il faut choisir "YES" pour finir.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture11.PNG" alt="">
+            Ensuite il faut choisir "Reboot" pour confirmer.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture12.PNG" alt="">
+            Voici les settings utilisé pour la VM pfsense.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture13.PNG" alt="">
+            Une fois ce menu affiché, il faut choisir "2" pour configurer les adresses ip.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture14.PNG" alt="">
+            Ensuite il faut choisir "1" pour configurer l'interface WAN.
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capture15.PNG" alt="" id="double">
+            Ensuite il faut choisir "2" pour configurer l'interface WAN en DHCP.
+        </div>
+        <div class="paragraphe">
+            <div>
+                <img src="../style/img/pfsense/Capture16.PNG" alt="">
+                <img src="../style/img/pfsense/Capture17.PNG" alt="">
+            </div>
+            Ensuite il faut choisir "y" mettre l'adresse ip de: 10.0.0.10 à 10.0.0.254 et choisir "n" pour ne pas configurer l'interface WAN en IPV6. et maintenant vous devez avoir accées à internet et à l'interface pfsense
+        </div>
+        <div class="paragraphe">
+            <img src="../style/img/pfsense/Capturefirewall.PNG" alt="">
+            Et Voila maintenant votre parefeu est prêt à l'emploi cependant veillez à ce que les Vm du reseau interne soit bien compris entre 10.0.0.10 et 10.0.0.254. 
+
+            
+</body>
+</html>

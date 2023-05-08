@@ -45,6 +45,7 @@ a:hover{
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     color: black;
+    overflow: hidden;
 
 }
 #all_logo{
@@ -58,7 +59,7 @@ a:hover{
     width: 50px;
 }
 #logo2{
-    padding-right: 100px;
+    margin-right: 100px;
     height: 50px;
     width: 70px;
 }
@@ -83,3 +84,28 @@ a:hover{
     text-decoration: underline;
 }
 
+.espace{
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.paragraphe{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+#double{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
